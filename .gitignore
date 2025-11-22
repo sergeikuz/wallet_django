@@ -1,18 +1,181 @@
-*.log
-*.pot
+# Django
 *.pyc
 __pycache__/
-local_settings.py
+*.pyo
+*.pyd
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
 db.sqlite3
 db.sqlite3-journal
-media
-.coverage
-coverage.xml
-.python-version
-*.py[cod]
-*$py.class
-*.so
-.env
-*.egg-info
-*_cache/
 *.sqlite3
+.DS_Store
+instance/
+.webassets-cache
+.idea/
+.vscode/
+__pycache__/
+*.swp
+*.swo
+*~
+.local
+celerybeat-schedule
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+var/
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Vite/React/Node
+node_modules/
+/dist/
+/static/dist/
+/.env
+/.env.local
+/.env.*.local
+.env.development.local
+.env.test.local
+.env.production.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+/.vite/
+*.tgz
+.yarn-integrity
+.cache/
+.parcel-cache/
+.eslintcache
+.stylelintcache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+*.tsbuildinfo
+build/
+.storybook-out/
+*.vue.html
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Database
+*.sqlite3
+*.db
+
+# Media and static files
+/media/
+/staticfiles/
+/uploads/
+
+# Django production
+/static/
+
+# Python
+*.pyc
+__pycache__/
+.python-version
+pip-selfcheck.json
+.Python
+pyvenv.cfg
+.venv
+venv/
+ENV/
+
+# Logs
+*.log
+logs/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+
+# Build artifacts
+/build/
+/dist/
+/*.egg-info/
+
+# Temporary files
+/tmp/
+/var/tmp/
+
+# Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+[Tt]humbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+.directory
+*~
+
+# Backup files
+*.backup
+*.bak
+*.tmp
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.idea/
+*.iml
+*.iws
